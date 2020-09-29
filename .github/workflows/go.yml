@@ -40,5 +40,5 @@ jobs:
       uses: actions/upload-artifact@v2.1.4
       with:
         name: aws-sigv4-proxy-bin
-        path: ./aws-sigv4-proxy-bin
+        path: aws-sigv4-proxy-bin
         if-no-files-found: fail
