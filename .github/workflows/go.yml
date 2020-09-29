@@ -35,7 +35,7 @@ jobs:
 
     - name: Test
       run: go test -v .
-  upload_artifact:
+
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.1.4
       with:
